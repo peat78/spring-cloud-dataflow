@@ -35,9 +35,6 @@ import org.springframework.cloud.dataflow.composedtaskrunner.properties.Composed
 import org.springframework.cloud.dataflow.core.Base64Utils;
 import org.springframework.cloud.task.configuration.TaskConfigurer;
 import org.springframework.cloud.task.configuration.TaskProperties;
-import org.springframework.security.oauth2.client.endpoint.OAuth2AccessTokenResponseClient;
-import org.springframework.security.oauth2.client.endpoint.OAuth2ClientCredentialsGrantRequest;
-import org.springframework.security.oauth2.client.registration.ClientRegistrationRepository;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.interceptor.DefaultTransactionAttribute;
 import org.springframework.transaction.interceptor.TransactionAttribute;

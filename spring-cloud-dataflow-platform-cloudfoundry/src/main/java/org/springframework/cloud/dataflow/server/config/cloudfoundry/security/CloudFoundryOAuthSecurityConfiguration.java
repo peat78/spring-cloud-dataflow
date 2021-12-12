@@ -26,7 +26,6 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnCloudPlatfo
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.cloud.CloudPlatform;
 import org.springframework.cloud.common.security.OAuthSecurityConfiguration;
-import org.springframework.cloud.common.security.core.support.OAuth2TokenUtilsService;
 import org.springframework.cloud.common.security.support.CustomAuthoritiesOpaqueTokenIntrospector;
 import org.springframework.cloud.common.security.support.DefaultAuthoritiesMapper;
 import org.springframework.cloud.common.security.support.OnOAuth2SecurityEnabled;
